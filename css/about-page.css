@@ -1,0 +1,74 @@
+.container{
+        margin: 2% 10%;
+        background-color: white;
+        height: 100%;
+        padding: 1% 2% 10% 2%;
+}
+
+#title{
+        font-style: italic;
+        font-weight: bold;
+        text-indent: 1em;
+}
+
+.title-enredo, .title-producao, .title-midia, .title-sinopse{
+        text-indent: 2em;
+        font-weight: 500;
+}
+
+#subtitle{
+        font-weight: bold;
+        text-indent: 2em;
+}
+
+.container-main{
+        margin: 2% 0;
+}
+
+.container-main > .conteudo{
+        border: 1px solid black;
+        width: 15%;
+        margin: 5% 0;
+}
+
+.head-list{
+        background-color: #70C3FF;
+        text-align: center;
+        padding: 2% 0;
+        font-weight: bold;
+}
+
+.list-conteudo{
+        padding: 20% 10% 20% 20%;
+}
+
+.list-conteudo a{
+        color: black;
+}
+
+.container-main .paragraph, #enredo, #producao, #midia, #manga, #premissa{
+        margin: 2% 2% 0 0;
+}
+
+.container-main .paragraph p{
+        margin: 1% auto;
+        text-align: justify;
+        font-size: 12px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 1244px) {
+        .container-main > .conteudo{
+                width: 30%;
+        }
+}
+@media (max-width: 576px) {
+        .container-main > .conteudo{
+                width: 40%;
+        }
+}
+@media (max-width: 408px) {
+        .container-main > .conteudo{
+                width: 60%;
+        }
+}
